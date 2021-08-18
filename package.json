@@ -1,0 +1,34 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "A NodeJS API using Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thauangodoy/typescript-study.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Thauan Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thauangodoy/typescript-study/issues"
+  },
+  "homepage": "https://github.com/thauangodoy/typescript-study#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^16.6.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
